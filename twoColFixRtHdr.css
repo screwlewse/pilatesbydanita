@@ -14,10 +14,10 @@ body  {
 	margin: 0 auto; /* this overrides the text-align: center on the body element. */
 	text-align: left;
 	border: 1px solid #000;
-} 
+}
 .twoColFixRtHdr #header {
 	padding: 0;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
-} 
+}
 .twoColFixRtHdr #navBar{
 	background: #C3A68A;
 	padding: 0;
@@ -38,7 +38,7 @@ body  {
 	margin: 0 250px 0 0; /* the right margin on this div element creates the column down the right side of the page - no matter how much content the sidebar1 div contains, the column space will remain. You can remove this margin if you want the #mainContent div's text to fill the #sidebar1 space when the content in #sidebar1 ends. */
 	padding: 0 20px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
 	font-weight: bold;
-} 
+}
 .twoColFixRtHdr #mainContent h1{
 	text-transform: capitalize;
 	color: #109C91;
@@ -54,7 +54,7 @@ body  {
 .twoColFixRtHdr #footer {
 	padding: 0 10px 0 20px; /* this padding matches the left alignment of the elements in the divs that appear above it. */
 	background:#1CBAB0;
-} 
+}
 .twoColFixRtHdr #footer p {
 	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
 	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
@@ -77,4 +77,23 @@ body  {
 }
 .name {
 	text-align: right;
+}
+.centered {
+    text-align: center;
+}
+.centered img {
+    margin: 0 auto;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    background: #666;
+}
+a img {
+    border: 1px solid transparent;
+}
+a:hover img {
+    opacity: 0.5;
+    border: 1px solid #333;
 }

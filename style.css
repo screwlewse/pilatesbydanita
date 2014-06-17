@@ -2,35 +2,35 @@ a:link {
 	color: #84414A;
 	text-decoration: underline;
 	}
-a:visited { 
+a:visited {
 	color: #84414A;
-	text-decoration: underline; 
+	text-decoration: underline;
 	}
 a:hover {
 	color: #666666;
 	text-decoration: underline;
 	}
-a:active { 
+a:active {
 	color: #84414A;
-	text-decoration: underline; 
+	text-decoration: underline;
 	}
-	
-.textVerd { 
+
+.textVerd {
 	font-family:Verdana, Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	color:#000000;
 	line-height:14px;
 	}
-	
-.textVerdBold { 
+
+.textVerdBold {
 	font-family:Verdana, Arial, Helvetica, sans-serif;
 	font-size: 17px;
 	color:#112269;
 	line-height:14px;
 	font-weight: bold;
 	}
-	
-.textVerdBold2 { 
+
+.textVerdBold2 {
 	font-family:Verdana, Arial, Helvetica, sans-serif;
 	font-size: 19px;
 	color:#112269;
